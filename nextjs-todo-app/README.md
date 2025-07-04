@@ -4,7 +4,7 @@
 
 ## 🚀 デモ
 
-GitHub Pages: [https://koki-yamamoto-system-exe-jp.github.io/koki-yamamoto-0702/](https://koki-yamamoto-system-exe-jp.github.io/koki-yamamoto-0702/)
+GitHub Pages: [https://koki-yamamoto-system-exe-jp.github.io/koki-yamamoto-0702/nextjs-todo-app/](https://koki-yamamoto-system-exe-jp.github.io/koki-yamamoto-0702/nextjs-todo-app/)
 
 ## ✨ 機能
 

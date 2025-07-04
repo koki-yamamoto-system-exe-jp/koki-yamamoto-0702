@@ -26,10 +26,14 @@ jobs:
         cache: 'npm'
 
     - name: Install dependencies
-      run: npm ci
+      run: |
+        cd nextjs-todo-app
+        npm ci
 
     - name: Build
-      run: npm run build
+      run: |
+        cd nextjs-todo-app
+        npm run build
       env:
         NODE_ENV: production
 
@@ -39,7 +43,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: ./out
+        path: ./nextjs-todo-app/out
 
     - name: Deploy to GitHub Pages
       id: deployment
